@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get("/", (_req, res) => {
-  res.json({ message: "jenkins use krke cicd workig successfully " });
+  res.json({ message: "jenkins workig successfully " });
 });
 
 app.listen(port, () => {
